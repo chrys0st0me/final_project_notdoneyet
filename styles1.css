@@ -99,7 +99,7 @@
         }
         
 .profile-container {
-    position: relative; /* Ensure the container is positioned */
+    position: relative; 
 }
 
 .profile-picture {
@@ -107,7 +107,7 @@
     height: 110px;
     border-radius: 50%;
     position: absolute;
-    top: -55px; /* Adjust top position to move the picture to the top */
+    top: 20px; /* Adjust top position to move the picture to the top */
     left: 20px; /* Adjust left position as needed */
     object-fit: cover;
 }
