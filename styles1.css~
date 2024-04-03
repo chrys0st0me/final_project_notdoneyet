@@ -1,0 +1,108 @@
+.container {
+            text-align: center; 
+        }
+        .centered-button {
+            margin-bottom: 20px; 
+        }
+        .boxed-field {
+            border: 5px solid #ccc; 
+            padding: 20px; 
+            width: 1200px; 
+            background-color: #b39e78;
+            text-align: center; 
+            display: inline-block;
+            
+        }
+         .title {
+            font-weight: bold; 
+            font-size: 18px; 
+        }
+        body, nav ul, nav ul li {
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color: #333; 
+            text-align: center; 
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: inline-block; 
+        }
+
+        nav ul li {
+            display: inline-block; 
+        }
+
+        nav ul li a {
+            display: block;
+            color: white; 
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            background-color: #555; 
+        }
+
+        
+        .boxed-title {
+            border: 2px solid #b39e78;
+            padding: 10px;
+            background-color: #f7ede4;
+            width: 100%; 
+            box-sizing: border-box; 
+            margin: auto; 
+            text-align: center; 
+            font-size: 24px; 
+        }
+
+        
+        .video-container {
+            text-align: center;
+            margin: 0 auto;
+            max-width: 800px;
+        }
+	
+        .search-container {
+            margin-bottom: 20px; 
+        }
+
+        .search-input {
+            padding: 8px; 
+            width: 70%; 
+            margin-right: 10px; 
+            border: 2px solid #ccc; 
+            border-radius: 5px;
+        }
+
+        .search-button {
+            padding: 8px 16px; 
+            background-color: #4CAF50; 
+            color: white;
+            border: none; 
+            border-radius: 5px; 
+            cursor: pointer; 
+        }
+
+	.action-button {
+            padding: 8px 16px; 
+            background-color: #4CAF50; 
+            color: white;
+            border: none; 
+            border-radius: 5px; 
+            cursor: pointer;
+            margin: 0 10px; 
+        }
+         .profile-picture {
+            width: 110px; 
+            height: 110px; 
+            border-radius: 50%; 
+            position: absolute; 
+            top: 20px; 
+            left: 20px; 
+            object-fit: cover; /
+        }
