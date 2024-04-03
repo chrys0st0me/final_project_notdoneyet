@@ -97,12 +97,17 @@
             cursor: pointer;
             margin: 0 10px; 
         }
-         .profile-picture {
-            width: 110px; 
-            height: 110px; 
-            border-radius: 50%; 
-            position: absolute; 
-            top: 20px; 
-            left: 20px; 
-            object-fit: cover; /
-        }
+        
+.profile-container {
+    position: relative; /* Ensure the container is positioned */
+}
+
+.profile-picture {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    position: absolute;
+    top: -55px; /* Adjust top position to move the picture to the top */
+    left: 20px; /* Adjust left position as needed */
+    object-fit: cover;
+}
