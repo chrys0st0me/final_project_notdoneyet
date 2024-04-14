@@ -1,4 +1,4 @@
-const volunteerButton = document.querySelector('#button');
+const volunteerButton = document.getElementById('volunteerButton');
 volunteerButton.addEventListener('click', function() {
     // Code to prompt a form for users to input their contact information
     // Example: Show a modal or prompt for user input
