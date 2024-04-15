@@ -24,3 +24,8 @@ document.addEventListener('DOMContentLoaded', function() {
         console.error('Dynamic element not found in the DOM.');
     }
 });
+
+const elementToStyle = document.querySelector('.profile-container');
+
+elementToStyle.style.backgroundColor = 'lightblue';
+elementToStyle.style.padding = '10px';
