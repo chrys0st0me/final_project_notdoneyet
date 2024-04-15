@@ -25,7 +25,16 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
-const elementToStyle = document.querySelector('.profile-container');
+document.addEventListener('DOMContentLoaded', function() {
+    // Select the profile container element
+    const elementToStyle = document.querySelector('.profile-container');
 
-elementToStyle.style.backgroundColor = 'lightblue';
-elementToStyle.style.padding = '10px';
+    // Check if element is found
+    if (elementToStyle) {
+        // Apply dynamic styles
+        elementToStyle.style.backgroundColor = 'lightblue';
+        elementToStyle.style.padding = '10px';
+    } else {
+        console.error('Profile container not found in the DOM.');
+    }
+});
