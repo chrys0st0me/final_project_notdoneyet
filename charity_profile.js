@@ -1,8 +1,4 @@
 
-It seems like your JavaScript code is missing the part where you handle the volunteer button and the dynamic element. Here's how you can modify your JavaScript code to include those functionalities:
-
-javascript
-Copy code
 document.addEventListener('DOMContentLoaded', function() {
     // Event listener "Volunteer Now" button
     const volunteerButton = document.getElementById('volunteerButton');
