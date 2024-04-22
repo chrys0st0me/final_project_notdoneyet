@@ -1,3 +1,8 @@
+
+It seems like your JavaScript code is missing the part where you handle the volunteer button and the dynamic element. Here's how you can modify your JavaScript code to include those functionalities:
+
+javascript
+Copy code
 document.addEventListener('DOMContentLoaded', function() {
     // Event listener "Volunteer Now" button
     const volunteerButton = document.getElementById('volunteerButton');
@@ -18,25 +23,19 @@ document.addEventListener('DOMContentLoaded', function() {
         dynamicElement.textContent = 'Click me for more information!';
         dynamicElement.addEventListener('click', function() {
             alert('You clicked the dynamic element!');
-           
         });
     } else {
         console.error('Dynamic element not found in the DOM.');
     }
-});
 
-document.addEventListener('DOMContentLoaded', function() {
     // Select the profile container element
     const elementToStyle = document.querySelector('.profile-container');
 
-    // ...is element  found
+    // Apply dynamic style lightblue
     if (elementToStyle) {
-        // Apply dynamic style lightblue
         elementToStyle.style.backgroundColor = 'lightblue';
         elementToStyle.style.padding = '10px';
     } else {
         console.error('Profile container not found in the DOM.');
     }
 });
-
-
