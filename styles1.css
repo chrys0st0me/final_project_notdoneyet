@@ -111,3 +111,28 @@
     left: 20px; /* Adjust left position as needed */
     object-fit: cover;
 }
+
+#results-container {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#results-container div {
+    margin-bottom: 10px;
+}
+
+#results-container strong {
+    font-weight: bold;
+}
+
+#results-container .distance {
+    color: #007bff; /* Blue color for distance */
+}
+
+#results-container .duration {
+    color: #28a745; /* Green color for duration */
+}
